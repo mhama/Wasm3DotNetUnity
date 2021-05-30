@@ -1,7 +1,9 @@
 # Wasm3DotNetUnity
 Unity Sample of [Wasm3DotNet](https://github.com/tana/Wasm3DotNet)
 
-Android dynamic libraries (.so) are built using original [wasm3](https://github.com/wasm3/wasm3) without any mod.
+Android / iOS dynamic libraries (.so) are built using original [wasm3](https://github.com/wasm3/wasm3) without any mod.
+
+MacOS Unity Editor/Player is not supported (yet)
 
 # Library versions
 
