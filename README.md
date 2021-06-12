@@ -4,10 +4,12 @@ Unity Sample of [Wasm3DotNet](https://github.com/tana/Wasm3DotNet)
 
 # targets
 
+* Unity Editor (Windows / macOS)
 * Windows
 * macOS
 * Android
 * iOS
+* WebGL (wasm3 VM on browser WebAssembly!)
 
 Native libraries are built using original [wasm3](https://github.com/wasm3/wasm3) without any mod.
 
