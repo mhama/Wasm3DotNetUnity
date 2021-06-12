@@ -5,8 +5,8 @@ namespace Wasm3DotNet
 {
     public class NativeFunctions
     {
-// fix for unity
-#if UNITY_IOS && !UNITY_EDITOR
+        // fix for unity
+#if (UNITY_IOS || UNITY_WEBGL) && !UNITY_EDITOR
         public const string LIBNAME = "__Internal";
 #else
         public const string LIBNAME = "wasm3";
